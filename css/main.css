@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    cursor: pointer;
+}
+
+
+thead >*{
+   width: 50px;
+}
+
+
+table tr:nth-child(even), thead {
+    background-color: lightgray;
+}
+
+
+table {
+    width: 80%;
+    margin: 20px auto; 
+    border-collapse: collapse; 
+    text-align: center;
+
+}
+
+
+th, td {
+    border: 1px solid #ddd; 
+    padding: 10px; 
+}
+
+
+thead {
+    font-weight: bold;
+    font-size: 1.1em; 
+}
+
+
+button {
+    border: none;
+    padding: 8px 12px;
+    margin: 0 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+
+button.Read {
+    background-color: #2788c9;
+   
+}
+button.Update {
+    background-color: #ff9800;
+   
+}
+button.Delete {
+    background-color: #db6f44;
+}
